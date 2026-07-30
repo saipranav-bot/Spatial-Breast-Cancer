@@ -10,3 +10,4 @@ spacexr/
 # R files
 .Rhistory
 .RData
+results/

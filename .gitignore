@@ -1,0 +1,12 @@
+# Seurat objects
+*.rds
+
+# Visium raw data
+data/raw/
+
+# External packages
+spacexr/
+
+# R files
+.Rhistory
+.RData

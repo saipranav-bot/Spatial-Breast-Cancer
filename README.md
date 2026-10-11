@@ -99,7 +99,10 @@ Spatial_Breast_Cancer/
 
 ├── scripts/
 
-Analysis scripts for spatial transcriptomics workflow
+Analysis scripts for spatial transcriptomics workflow. The 14 scripts listed
+under Reproducibility form the canonical pipeline; earlier/alternative variants
+are kept under `scripts/archive_old/` for reference and are not part of the
+current workflow.
 
 ├── figures/
 

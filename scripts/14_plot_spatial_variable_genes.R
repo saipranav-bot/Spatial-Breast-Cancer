@@ -28,7 +28,7 @@ cat("SVG object loaded\n")
 
 svg_genes <- SpatiallyVariableFeatures(
   visium,
-  method = "markvariogram"
+  method = "moransi"
 )
 
 cat(

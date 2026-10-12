@@ -168,3 +168,7 @@ These files are ignored using `.gitignore`.
 # License
 
 Academic and research use only.
+
+
+## Plain-English Explanation
+See [EXPLAIN_PLAIN_ENGLISH.md](EXPLAIN_PLAIN_ENGLISH.md) for a non-technical summary of what was done, steps, and verification.

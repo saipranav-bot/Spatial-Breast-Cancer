@@ -6,10 +6,18 @@
 library(Seurat)
 library(ggplot2)
 
+set.seed(123)
+
 cat("====================================\n")
 cat("Starting PCA analysis\n")
 cat("====================================\n")
 
+
+# Fixed seed for reproducibility
+set.seed(123)
+
+# Fixed seed for reproducibility
+set.seed(123)
 
 # Load SCT normalized object
 visium <- readRDS(

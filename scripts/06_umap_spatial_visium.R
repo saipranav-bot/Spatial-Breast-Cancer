@@ -5,10 +5,18 @@
 library(Seurat)
 library(ggplot2)
 
+set.seed(123)
+
 cat("====================================\n")
 cat("Starting UMAP analysis\n")
 cat("====================================\n")
 
+
+# Fixed seed for reproducibility
+set.seed(123)
+
+# Fixed seed for reproducibility
+set.seed(123)
 
 # Load clustered object
 visium <- readRDS(

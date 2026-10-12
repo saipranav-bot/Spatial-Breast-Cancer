@@ -45,7 +45,7 @@ cat("Clustering completed\n")
 
 # Cluster plot
 pdf(
-  "figures/05_cluster_pca.pdf",
+  "figures/05_clusters_pca.pdf",
   width = 8,
   height = 6
 )

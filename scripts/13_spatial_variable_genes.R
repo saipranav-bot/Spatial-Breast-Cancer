@@ -46,13 +46,14 @@ cat(
 
 
 # Run spatial variable gene detection
+# Use "moransi" as a faster, reliable alternative to "markvariogram"
+# which can be computationally prohibitive on this dataset.
 
 visium <- FindSpatiallyVariableFeatures(
   visium,
   assay = "SCT",
-  selection.method = "markvariogram",
+  selection.method = "moransi",
   features = svg_features,
-  r.metric = 5,
   verbose = TRUE
 )
 
@@ -76,7 +77,7 @@ cat("Checkpoint saved: after SVG\n")
 
 svg_genes <- SpatiallyVariableFeatures(
   visium,
-  method = "markvariogram"
+  method = "moransi"
 )
 
 

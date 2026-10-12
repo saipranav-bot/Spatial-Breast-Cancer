@@ -13,11 +13,11 @@ cat("====================================\n")
 
 
 # ------------------------------------------
-# Load annotated object
+# Load clustered/UMAP object
 # ------------------------------------------
 
 visium <- readRDS(
-  "results/09_annotated_visium.rds"
+  "results/06_umap_visium.rds"
 )
 
 DefaultAssay(visium) <- "SCT"
@@ -82,6 +82,18 @@ write.csv(
 )
 
 cat("Top 10 overall marker genes selected\n")
+
+
+# ------------------------------------------
+# Save object for downstream annotation
+# ------------------------------------------
+
+saveRDS(
+  visium,
+  "results/07_marker_visium.rds"
+)
+
+cat("Saved results/07_marker_visium.rds\n")
 
 
 # ------------------------------------------

@@ -13,7 +13,7 @@ cat("====================================\n")
 
 # Load SCT normalized object
 visium <- readRDS(
-  "results/03_sctransformed_visium.rds"
+  "results/03_sctransform.rds"
 )
 
 cat("Loaded SCT normalized Visium object\n")
